@@ -113,7 +113,7 @@ command(
     type: "user",
   },
   async (message, match) => {
-    const start = new Date().getTime();
+    
     await message.sendMessage(message.jid, "```yᴇᴀʜ.ᴍᴇᴅɪᴀ-ɢᴇᴛ!```");
     
   }
