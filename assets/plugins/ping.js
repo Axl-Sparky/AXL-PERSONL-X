@@ -115,8 +115,5 @@ command(
   async (message, match) => {
     const start = new Date().getTime();
     await message.sendMessage(message.jid, "```yᴇᴀʜ.ᴍᴇᴅɪᴀ-ɢᴇᴛ!```");
-    const end = new Date().getTime();
-    return await message.sendMessage(
-      message.jid,
-      "*ᴩᴏɴɢ!*\n ```" + (end - start) + "
+    
   }
