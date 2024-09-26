@@ -13,7 +13,7 @@ command(
     const end = new Date().getTime();
     return await message.sendMessage(
       message.jid,
-      "*Pong!*\n ```" + (end - start) + "``` *ms*"
+      "*Pong!*\n ```" + (end - start) + "``` *ms!*"
     );
   }
 );
