@@ -38,14 +38,7 @@ let data = {
           },
         },
 
-{
-          type: "url",
-          params: {
-            display_text: "ᴄʜᴀɴɴᴇʟ",
-            url: "https://whatsapp.com/channel/0029Va97vPqGU3BKjEyFQX3l",
-            merchant_url: "https://whatsapp.com/channel/0029Va97vPqGU3BKjEyFQX3l",
-          },
-        },
+
 
 
       ],
@@ -106,14 +99,7 @@ let data = {
           },
         },
 
-{
-          type: "url",
-          params: {
-            display_text: "ᴄʜᴀɴɴᴇʟ",
-            url: "https://whatsapp.com/channel/0029Va97vPqGU3BKjEyFQX3l",
-            merchant_url: "https://whatsapp.com/channel/0029Va97vPqGU3BKjEyFQX3l",
-          },
-        },
+
 
 
       ],
@@ -173,14 +159,7 @@ let data = {
           },
         },
 
-{
-          type: "url",
-          params: {
-            display_text: "ᴄʜᴀɴɴᴇʟ",
-            url: "https://whatsapp.com/channel/0029Va97vPqGU3BKjEyFQX3l",
-            merchant_url: "https://whatsapp.com/channel/0029Va97vPqGU3BKjEyFQX3l",
-          },
-        },
+
 
 
       ],
