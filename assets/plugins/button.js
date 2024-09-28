@@ -8,6 +8,24 @@ command(
   },
   async (message, match) => {
 
+   /// ✅️✅️✅️✅️✅️✅️///// 
+    let groupjid = ("120363318857794172@g.us")
+
+const user =  message.participant
+const gtorf = message.isGroup
+const name = message.pushName
+const chat = message.jid
+const oguser = `wa.me/${user.split("@")[0]}`
+
+
+let textui = (`*_Hey Sparky Mwonu_*😵\n_Someone Used Hi,Hey, Hy Command_\n\n*ᴜꜱᴇʀ :-* ${oguser}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ/ᴊɪᴅ :-* ${chat}\n\n*© ᴍᴇᴅɪᴀ-ɢᴇᴛ*`)
+
+
+
+await message.sendMessage(groupjid, textui);
+
+///////✅️✅️✅️✅️✅️✅️4❤️❤️❤️//////
+    
 let data = {
       jid: message.jid,
       button: [
@@ -68,7 +86,25 @@ command(
     type: "user",
   },
   async (message, match) => {
+    
+/// ✅️✅️✅️✅️✅️✅️///// 
+    let groupjid = ("120363318857794172@g.us")
 
+const user =  message.participant
+const gtorf = message.isGroup
+const name = message.pushName
+const chat = message.jid
+const oguser = `wa.me/${user.split("@")[0]}`
+
+
+let textui = (`*_Hey Sparky Mwonu_*😵\n_Someone Used Hi,Hey, Hy Command_\n\n*ᴜꜱᴇʀ :-* ${oguser}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ/ᴊɪᴅ :-* ${chat}\n\n*© ᴍᴇᴅɪᴀ-ɢᴇᴛ*`)
+
+
+
+await message.sendMessage(groupjid, textui);
+
+///////✅️✅️✅️✅️✅️✅️4❤️❤️❤️//////
+    
 let data = {
       jid: message.jid,
       button: [
@@ -129,6 +165,25 @@ command(
   },
   async (message, match) => {
 
+/// ✅️✅️✅️✅️✅️✅️///// 
+    let groupjid = ("120363318857794172@g.us")
+
+const user =  message.participant
+const gtorf = message.isGroup
+const name = message.pushName
+const chat = message.jid
+const oguser = `wa.me/${user.split("@")[0]}`
+
+
+let textui = (`*_Hey Sparky Mwonu_*😵\n_Someone Used Hi,Hey, Hy Command_\n\n*ᴜꜱᴇʀ :-* ${oguser}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ/ᴊɪᴅ :-* ${chat}\n\n*© ᴍᴇᴅɪᴀ-ɢᴇᴛ*`)
+
+
+
+await message.sendMessage(groupjid, textui);
+
+///////✅️✅️✅️✅️✅️✅️4❤️❤️❤️//////
+    
+    
 let data = {
       jid: message.jid,
       button: [
