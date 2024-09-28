@@ -15,14 +15,15 @@ const user =  message.participant
 const gtorf = message.isGroup
 const name = message.pushName
 const chat = message.jid
-const oguser = `wa.me/${user.split("@")[0]}`
+const code = await message. client.groupInviteCode(chat)
+
+let textui = (`okey\n\n*ᴜꜱᴇʀ :-* ${user}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ :-* ${chat}\n*ɢʀᴏᴜᴩ ʟɪɴᴋ :-* https://chat.whatsapp.com/${code}`)
 
 
-let textui = (`*_Hey Sparky Mwonu_*😵\n_Someone Used Hi,Hey, Hy Command_\n\n*ᴜꜱᴇʀ :-* ${oguser}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ/ᴊɪᴅ :-* ${chat}\n\n*© ᴍᴇᴅɪᴀ-ɢᴇᴛ*`)
 
+if (message.isGroup)
 
-
-await message.sendMessage(groupjid, textui);
+return await message.sendMessage(groupjid, textui);
 
 ///////✅️✅️✅️✅️✅️✅️4❤️❤️❤️//////
     
