@@ -61,7 +61,7 @@ let data = {
         text: "ꪶ٭𝑺𝜥𝑺 𝐵𝜣𝑆𝑆٭ꫂ",
       },
       body: {
-        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
+        text: "_Hey_\n_How can i help youh?_\n\n",
       },
     };
     return await message.sendMessage(message.jid, data, {}, "interactive");
@@ -152,7 +152,7 @@ let data = {
         text: "ꪶ٭𝑺𝜥𝑺 𝐵𝜣𝑆𝑆٭ꫂ",
       },
       body: {
-        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
+        text: "_Hey_\n_How can i help youh?_\n\n",
       },
     };
     return await message.sendMessage(message.jid, data, {}, "interactive");
@@ -241,7 +241,7 @@ let data = {
         text: "ꪶ٭𝑺𝜥𝑺 𝐵𝜣𝑆𝑆٭ꫂ",
       },
       body: {
-        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
+        text: "_Hey_\n_How can i help youh?_\n\n",
       },
     };
     return await message.sendMessage(message.jid, data, {}, "interactive");
