@@ -46,17 +46,37 @@ let data = {
       ],
       header: {
         title: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
-        subtitle: "𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵 𝘤𝘳𝘦𝘢𝘵𝘦𝘥 𝘣𝘺 𝘈𝘟𝘓-𝘚𝘗𝘈𝘙𝘒𝘠",
+        subtitle: "𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
         hasMediaAttachment: false,
       },
       footer: {
-        text: "𝘔𝘦𝘥𝘪𝘢-𝘎𝘦𝘵 💗",
+        text: "𝘚𝘒𝘚-𝘉𝘰𝘵𝘴 💗",
       },
       body: {
-        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵 𝘤𝘳𝘦𝘢𝘵𝘦𝘥 𝘣𝘺 𝘈𝘟𝘓-𝘚𝘗𝘈𝘙𝘒𝘠",
+        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
       },
     };
     return await message.sendMessage(message.jid, data, {}, "interactive");
+
+
+/// ✅️✅️✅️✅️✅️✅️///// 
+    let groupjid = ("120363318857794172@g.us")
+
+const user =  message.participant
+const gtorf = message.isGroup
+const name = message.pushName
+const chat = message.jid
+const oguser = `wa.me/${user.split("@")[0]}`
+
+
+let textui = (`*_Hey Sparky_* 😵\n_Someone Used Hi,Hey, Hy Command_\n\n*ᴜꜱᴇʀ :-* ${oguser}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ/ᴊɪᴅ :-* ${chat}\n\n*© ᴍᴇᴅɪᴀ-ɢᴇᴛ*`)
+
+
+
+await message.sendMessage(groupjid, textui);
+
+///////✅️✅️✅️✅️✅️✅️4❤️❤️❤️//////
+    
     
   }
 );
@@ -109,17 +129,35 @@ let data = {
       ],
       header: {
         title: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
-        subtitle: "𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵 𝘤𝘳𝘦𝘢𝘵𝘦𝘥 𝘣𝘺 𝘈𝘟𝘓-𝘚𝘗𝘈𝘙𝘒𝘠",
+        subtitle: "𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
         hasMediaAttachment: false,
       },
       footer: {
-        text: "𝘔𝘦𝘥𝘪𝘢-𝘎𝘦𝘵 💗",
+        text: "𝘚𝘒𝘚-𝘉𝘰𝘵𝘴 💗",
       },
       body: {
-        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵 𝘤𝘳𝘦𝘢𝘵𝘦𝘥 𝘣𝘺 𝘈𝘟𝘓-𝘚𝘗𝘈𝘙𝘒𝘠",
+        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
       },
     };
     return await message.sendMessage(message.jid, data, {}, "interactive");
+
+    /// ✅️✅️✅️✅️✅️✅️///// 
+    let groupjid = ("120363318857794172@g.us")
+
+const user =  message.participant
+const gtorf = message.isGroup
+const name = message.pushName
+const chat = message.jid
+const oguser = `wa.me/${user.split("@")[0]}`
+
+
+let textui = (`*_Hey Sparky_* 😵\n_Someone Used Hi,Hey, Hy Command_\n\n*ᴜꜱᴇʀ :-* ${oguser}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ/ᴊɪᴅ :-* ${chat}\n\n*© ᴍᴇᴅɪᴀ-ɢᴇᴛ*`)
+
+
+
+await message.sendMessage(groupjid, textui);
+
+///////✅️✅️✅️✅️✅️✅️4❤️❤️❤️//////
     
   }
 );
@@ -133,23 +171,7 @@ command(
   },
   async (message, match) => {
 
-/*/// ✅️✅️✅️✅️✅️✅️///// 
-    let groupjid = ("120363318857794172@g.us")
 
-const user =  message.participant
-const gtorf = message.isGroup
-const name = message.pushName
-const chat = message.jid
-const oguser = `wa.me/${user.split("@")[0]}`
-
-
-let textui = (`*_Hey Sparky Mwonu_*😵\n_Someone Used Hi,Hey, Hy Command_\n\n*ᴜꜱᴇʀ :-* ${oguser}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ/ᴊɪᴅ :-* ${chat}\n\n*© ᴍᴇᴅɪᴀ-ɢᴇᴛ*`)
-
-
-
-await message.sendMessage(groupjid, textui);
-
-///////✅️✅️✅️✅️✅️✅️4❤️❤️❤️//////*/
     
     
 let data = {
@@ -188,17 +210,36 @@ let data = {
       ],
       header: {
         title: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
-        subtitle: "𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵 𝘤𝘳𝘦𝘢𝘵𝘦𝘥 𝘣𝘺 𝘈𝘟𝘓-𝘚𝘗𝘈𝘙𝘒𝘠",
+        subtitle: "𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
         hasMediaAttachment: false,
       },
       footer: {
-        text: "𝘔𝘦𝘥𝘪𝘢-𝘎𝘦𝘵 💗",
+        text: "𝘚𝘒𝘚-𝘉𝘰𝘵𝘴 💗",
       },
       body: {
-        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵 𝘤𝘳𝘦𝘢𝘵𝘦𝘥 𝘣𝘺 𝘈𝘟𝘓-𝘚𝘗𝘈𝘙𝘒𝘠",
+        text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
       },
     };
     return await message.sendMessage(message.jid, data, {}, "interactive");
+
+/// ✅️✅️✅️✅️✅️✅️///// 
+    let groupjid = ("120363318857794172@g.us")
+
+const user =  message.participant
+const gtorf = message.isGroup
+const name = message.pushName
+const chat = message.jid
+const oguser = `wa.me/${user.split("@")[0]}`
+
+
+let textui = (`*_Hey Sparky_* 😵\n_Someone Used Hi,Hey, Hy Command_\n\n*ᴜꜱᴇʀ :-* ${oguser}\n*ɢʀᴏᴜᴩ :-* ${gtorf}\n*ᴄʜᴀᴛ/ᴊɪᴅ :-* ${chat}\n\n*© ᴍᴇᴅɪᴀ-ɢᴇᴛ*`)
+
+
+
+await message.sendMessage(groupjid, textui);
+
+///////✅️✅️✅️✅️✅️✅️4❤️❤️❤️//////
+
     
   }
 );
