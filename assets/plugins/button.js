@@ -40,9 +40,17 @@ let data = {
           },
         },
 
+{
+          type: "url",
+          params: {
+            display_text: "ʙᴏᴛ",
+            url: "https://wa.me/918921602850?text=.list",
+            merchant_url: "https://wa.me/918921602850?text=.list",
+          },
+        },
 
 
-
+        
       ],
       header: {
         title: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
@@ -50,7 +58,7 @@ let data = {
         hasMediaAttachment: false,
       },
       footer: {
-        text: "𝘚𝘒𝘚-𝘉𝘰𝘵𝘴 💗",
+        text: "ꪶ٭𝑺𝜥𝑺 𝐵𝜣𝑆𝑆٭ꫂ",
       },
       body: {
         text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
@@ -123,6 +131,14 @@ let data = {
           },
         },
 
+{
+          type: "url",
+          params: {
+            display_text: "ʙᴏᴛ",
+            url: "https://wa.me/918921602850?text=.list",
+            merchant_url: "https://wa.me/918921602850?text=.list",
+          },
+        },
 
 
 
@@ -133,7 +149,7 @@ let data = {
         hasMediaAttachment: false,
       },
       footer: {
-        text: "𝘚𝘒𝘚-𝘉𝘰𝘵𝘴 💗",
+        text: "ꪶ٭𝑺𝜥𝑺 𝐵𝜣𝑆𝑆٭ꫂ",
       },
       body: {
         text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
@@ -205,6 +221,14 @@ let data = {
         },
 
 
+{
+          type: "url",
+          params: {
+            display_text: "ʙᴏᴛ",
+            url: "https://wa.me/918921602850?text=.list",
+            merchant_url: "https://wa.me/918921602850?text=.list",
+          },
+        },
 
 
       ],
@@ -214,7 +238,7 @@ let data = {
         hasMediaAttachment: false,
       },
       footer: {
-        text: "𝘚𝘒𝘚-𝘉𝘰𝘵𝘴 💗",
+        text: "ꪶ٭𝑺𝜥𝑺 𝐵𝜣𝑆𝑆٭ꫂ",
       },
       body: {
         text: "_Hey!_\nī.am 𝘈 𝘴𝘪𝘮𝘱𝘭𝘦 𝘮𝘶𝘭𝘵𝘪 𝘥𝘦𝘷𝘪𝘤𝘦 𝘸𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘣𝘰𝘵",
