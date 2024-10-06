@@ -12,9 +12,9 @@ const {
       type: "user",
     },
     async (message, match) => {
-        if (match.startsWith(">")) {
+        if (match.startsWith("$")) {
 			try {
-				let evaled = await eval(`(async () => { ${match.replace(">", "")} })()`);
+				let evaled = await eval(`(async () => { ${match.replace("$", "")} })()`);
 				if (typeof evaled !== "string") evaled = util.inspect(evaled);
 				await message.reply(`${evaled}`)
 			} catch (err) {
