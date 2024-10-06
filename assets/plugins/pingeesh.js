@@ -9,11 +9,11 @@ command(
   },
   async (message, match) => {
     const start = new Date().getTime();
-    await message.sendMessage(message.jid, "```Ping!```");
+    await message.sendMessage(message.jid, "....");
     const end = new Date().getTime();
     return await message.sendMessage(
       message.jid,
-      "_Latency" + (end - start) + "ms_"
+      "_Latency " + (end - start) + " ms_"
     );
   }
 );
