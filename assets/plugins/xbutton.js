@@ -1,4 +1,4 @@
-const { command, isPublic } = require("../../lib/")
+/*const { command, isPublic } = require("../../lib/")
 command(
   {
     pattern: "hi",
@@ -266,4 +266,4 @@ await message.sendMessage(groupjid, textui);
 
     
   }
-);
+);*/
