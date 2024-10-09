@@ -35,16 +35,14 @@ let res = await getJson(`https://api.devstackx.in/v1/igdl?url=${match}`);
 			
 			for (let i of res.data) {
 
-let dlxmsg = await message.sendMessage(message.jid, "_Uploading...!_", {quoted : message });
+await message.sendMessage(message.jid, "_Uploading...!_", {quoted : message });
 
 				await message.sendMessage(message.jid , i.url, {
 					quoted: message
 				}, i.type);
 }
 
-return await message.sendMessage(message.jid,"_Uploaded !_", {
-    edit : dlxmsg.key
-    });
+
 
 }
 
@@ -108,16 +106,14 @@ let resi = await getJson(`https://api.devstackx.in/v1/igdl?url=${match}`);
 			
 			for (let i of resi.data) {
 
-let dlmsg = await message.sendMessage(message.jid, "_Uploading...!_", {quoted : message });
+await message.sendMessage(message.jid, "_Uploading...!_", {quoted : message });
 
 				await message.sendMessage(message.jid , i.url, {
 					quoted: message
 				}, i.type);
 }
 
-return await message.sendMessage(message.jid,"_Uploaded !_", {
-    edit : dlmsg.key
-    });
+
 
 }
 
