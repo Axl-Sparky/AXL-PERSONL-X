@@ -30,7 +30,7 @@ let err = await getJson(`https://api.devstackx.in/v1/ytdl?url=${match}`);
 
 
 if(err.message === "An error occurred!."){
-return await message.reply("_Api request limit is full, Try again later.!_")};
+return await message.reply("_Api request limit is full, Try again later...!_")};
 
 
 let data = {
