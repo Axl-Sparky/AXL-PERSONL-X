@@ -26,77 +26,32 @@ if (!arr.includes(message.participant)) return message.reply("𝙃𝙚𝙮, 𝙮
 
 if (match.startsWith("https://youtu", "https://youtube.com", "https://youtu.be", "https://www.youtube.com")) {
 
-let err = await getJson(`https://api.devstackx.in/v1/ytdl?url=${match}`);
-
-
-if(err.message === "An error occurred!."){
-return await message.reply("_Api request limit is full , Try again later...!_")};
-
-
-let data = {
-      jid: message.jid,
-      button: [{
-          type: "reply",
-          params: {
-            display_text: "ᴀᴜᴅɪᴏ",
-            id: `audioyesavdlx ${match}`
-          },
-        },
-
-{
-          type: "reply",
-          params: {
-            display_text: "ᴠɪᴅᴇᴏ",
-            id: `videoyesavdlx ${match}`
-          },
-        },
-
-      ],
-      header: {
-        title: "*_YouTube Downloader ⬇️_*",
-        subtitle: "WhatsApp Bot",
-        hasMediaAttachment: false,
-      },
-      footer: {
-        text: "© ᴍᴇᴅɪᴀ ɢᴇᴛ",
-      },
-      body: {
-        text: `\n\n_Video Quality = 1080p_\n_Audio Quality = 480p_\n\n\n*_Click the button which format you want given below ↓_*\n`,
-      },
-    };
-    return await message.sendMessage(message.jid, data, {}, "interactive");
-}
-} catch (e) {
-console.log(e);
-}
-});
-
-
-
-
-
-
-
-
-command(
-  {
-    pattern: "audioyesavdlx",
-    fromMe: false,
-    type: "downloader",
-    dontAddCommandList: true
-  },
-  async (message,
- match) => {
-try {
-
 let response = await getJson(`https://api.devstackx.in/v1/ytdl?url=${match}`);
 
-let first = ("_Downloading Audio...!_");
+
+if(response.message === "An error occurred!."){
+return await message.reply("_Api request limit is full, Try again later.!_")} else {
+
+let get = response.data
+let title = get.title
+let duration = get.duration
+
+
+let first = (`_Downloading....!_\n\n\n_Title : ${title}_\n_Duration : ${duration}_\n\n_Audio Quality = 128kbps_\n_Video Quality = 1080p_`);
 
 await message.reply(first);
 
 
-for (i of response.data.media){
+for (xos of response.data.media)
+if (xos.quality === "1080p")
+
+
+await message.sendMessage(message.jid , xos.url, {
+					quoted: message
+				}, "video");
+
+
+for (i of response.data.media)
 if (i.type === "audio")
 
 var aju = "© ᴍᴇᴅɪᴀ-ɢᴇᴛ/ᴀᴊꜱᴀʟ-ꜱᴩᴀʀᴋy"
@@ -111,41 +66,7 @@ return await message.sendMessage(
         },
         "audio"
       )};
-
-
-} catch (e) {
-console.log(e);
 }
- });
-
-
-command(
-  {
-    pattern: "videoyesavdlx",
-    fromMe: false,
-    type: "downloader",
-    dontAddCommandList: true
-  },
-  async (message,
- match) => {
-try {
-
-let response = await getJson(`https://api.devstackx.in/v1/ytdl?url=${match}`);
-
-let first = ("_Downloading Video...!_");
-
-await message.reply(first);
-
-for (i of response.data.media){
-if (i.quality === "1080p")
-
-
- await message.sendMessage(message.jid , i.url, {
-					quoted: message
-				}, "video")};
-
-
-
 } catch (e) {
 console.log(e);
 }
