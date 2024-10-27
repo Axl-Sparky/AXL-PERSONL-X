@@ -24,7 +24,7 @@ if (!arr.includes(message.participant)) return message.reply("𝙃𝙚𝙮, 𝙮
 
 	    
 
-if (match.startsWith("https://youtu", "https://youtube.com", "https://youtu.be")) {
+if (match.startsWith("https://youtu", "https://youtube.com")) {
 
 let response = await getJson(`https://api.devstackx.in/v1/ytdl?url=${match}`);
 
