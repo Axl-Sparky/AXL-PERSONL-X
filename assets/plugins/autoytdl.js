@@ -37,13 +37,13 @@ let title = get.title
 let duration = get.duration
 
 
-let first = (`_Downloading....!_\n\n\n_Title : ${title}_\n_Duration : ${duration}_\n\n_Audio Quality = 128kbps_\n_Video Quality = 360p_`);
+let first = (`_Downloading....!_\n\n\n_Title : ${title}_\n_Duration : ${duration}_\n\n_Audio Quality = 128kbps_\n_Video Quality = 240p_`);
 
 await message.reply(first);
 
 
 for (xos of response.data.media)
-if (xos.quality === "360p")
+if (xos.quality === "240p")
 
 
 await message.sendMessage(message.jid , xos.url, {
