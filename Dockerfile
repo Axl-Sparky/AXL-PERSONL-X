@@ -1,5 +1,9 @@
-FROM quay.io/eypzgod/izumi:latest
-RUN git clone https://github.com/A-J-S-A-L-S-P-A-R-K-Y/AXL-PERSONL-X /root/bot/
-WORKDIR /root/bot/
-RUN yarn install --network-concurrency 1
-CMD ["npm", "start"]
+FROM node:20-alpine
+
+RUN apk update && apk add git
+COPY package.json .
+RUN npm install
+COPY . .
+EXPOSE 8080
+
+CMD ["node", "index.js"]
