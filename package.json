@@ -42,24 +42,5 @@
   "scripts": {
     "start": "pm2 start index.js --name x-asena && pm2 logs x-asena",
     "code": "node lib/pcode.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/X-Electra/X-Asena.git"
-  },
-  "keywords": [
-    "bot",
-    "whatsapp"
-  ],
-  "author": "Neeraj-x0",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/X-Electra/X-Asena/issues"
-  },
-  "homepage": "https://github.com/X-Electra/X-Asena#readme",
-  "devDependencies": {
-    "@eslint/js": "^9.4.0",
-    "eslint": "^9.4.0",
-    "globals": "^15.4.0"
   }
 }
