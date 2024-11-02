@@ -41,16 +41,6 @@ let first = (`_Downloading....!_\n\n\n_Title : ${title}_\n_Duration : ${duration
 
 await message.reply(first);
 
-
-for (xos of response.data.media)
-if (xos.quality === "240p")
-
-
-await message.sendMessage(message.jid , xos.url, {
-					quoted: message
-				}, "video");
-
-
 for (i of response.data.media)
 if (i.type === "audio")
 
