@@ -30,7 +30,7 @@ if (!arr.includes(message.participant)) return message.reply("𝙃𝙚𝙮, 𝙮
         if (match.startsWith("https://www.instagram.com")) {
 			try {
 
-let res = await getJson(`https://api.devstackx.in/v1/igdl?url=${match}`);
+let res = await getJson(`https://viper.xasena.me/api/insta?url=${match}`);
 			
 			
 			for (let i of res.data) {
