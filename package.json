@@ -2,7 +2,7 @@
   "name": "x-asena",
   "version": "2.0.1",
   "description": "Whatsapp Bot",
-  "main": "server.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
@@ -10,7 +10,7 @@
     "@adiwajshing/keyed-db": "^0.2.4",
     "@google/generative-ai": "^0.5.0",
     "@neeraj-x0/ytsearch": "^1.0.0",
-    "axios": "^1.7.7",
+    "axios": "^1.4.0",
     "baileys": "github:X-Electra/baileys",
     "bitly": "^4.1.1",
     "browser-id3-writer": "^4.4.0",
@@ -42,5 +42,24 @@
   "scripts": {
     "start": "pm2 start index.js --name x-asena && pm2 logs x-asena",
     "code": "node lib/pcode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X-Electra/X-Asena.git"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp"
+  ],
+  "author": "Neeraj-x0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/X-Electra/X-Asena/issues"
+  },
+  "homepage": "https://github.com/X-Electra/X-Asena#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "globals": "^15.4.0"
   }
 }
