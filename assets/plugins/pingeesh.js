@@ -10,10 +10,7 @@ command(
   async (message, match) => {
     const start = new Date().getTime();
 let first = ("_Checking....!_");
-
 let pong = await message.sendMessage(message.jid,  first, { quoted: message });
-
-
 
     const end = new Date().getTime();
 
