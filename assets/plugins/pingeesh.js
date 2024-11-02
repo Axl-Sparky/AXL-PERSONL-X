@@ -1,4 +1,4 @@
-const { fromBuffer, mimeTypes } = require("file-type");
+/*const { fromBuffer, mimeTypes } = require("file-type");
 const { command, isPublic } = require("../../lib/");
 command(
   {
@@ -19,3 +19,4 @@ var zzz = ("_Latency " + (end - start) + " ms_" );
  return await message.sendMessage(message.jid,   zzz , {edit: pong.key });
 
   });
+*/
