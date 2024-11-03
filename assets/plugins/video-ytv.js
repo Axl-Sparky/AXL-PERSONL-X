@@ -1,4 +1,5 @@
-getJson,
+const { command,
+    getJson,
    isPublic,    
     getBuffer
   } = require("../../lib/");
