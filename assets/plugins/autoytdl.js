@@ -37,7 +37,7 @@ let title = get.title
 let duration = get.duration
 
 
-let first = (`_Downloading audio....!_\n\n\n_Title : ${title}_\n_Duration : ${duration}_\n\n_Audio Quality = 128kbps_\n\n\n_If you want download video, use Ytv/Video command`);
+let first = (`_Downloading audio....!_\n\n\n_Title : ${title}_\n_Duration : ${duration}_\n\n_Audio Quality = 128kbps_\n\n\n_If you want download video, use Ytv/Video command_`);
 
 await message.reply(first);
 
