@@ -30,7 +30,7 @@ if(match.startsWith("https://")){
     [message.participant],
     "remove"
 )
-return message.reply("_Kicked !_");
+return message.reply("_Deleted a Virus baby!_");
 
 return;
 }
